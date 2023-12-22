@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=REM:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 17%;
+}
+.container h1{
+    font-family: 'REM', sans-serif;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(19, 255, 216);
+    margin-bottom: 30px;
+}
+.box{
+    width: 70%;
+    border-bottom: 2px solid rgb(62, 239, 255);
+     margin: 23px 30px;
+}
+.box input{
+    font-family: 'REM', sans-serif;
+    color: white;
+    background: none;
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    outline: none;   
+}
+.btn{
+    font-family: 'REM', sans-serif;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 70px;
+    margin: 14px 90px;
+    padding: 4px 4px;
+    border: 4px solid rgb(156, 255, 243);
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+}
+.btn:hover{
+    color: rgb(70, 240, 255);
+    background: rgb(0, 0, 0);
+    border: 4px solid black;
+}
